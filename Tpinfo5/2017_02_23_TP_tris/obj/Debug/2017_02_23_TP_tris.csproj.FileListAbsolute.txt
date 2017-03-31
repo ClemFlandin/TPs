@@ -1,0 +1,6 @@
+c:\users\34011-36-06\documents\visual studio 2015\Projects\2017_02_23_TP_tris\2017_02_23_TP_tris\bin\Debug\2017_02_23_TP_tris.exe.config
+c:\users\34011-36-06\documents\visual studio 2015\Projects\2017_02_23_TP_tris\2017_02_23_TP_tris\bin\Debug\2017_02_23_TP_tris.exe
+c:\users\34011-36-06\documents\visual studio 2015\Projects\2017_02_23_TP_tris\2017_02_23_TP_tris\bin\Debug\2017_02_23_TP_tris.pdb
+c:\users\34011-36-06\documents\visual studio 2015\Projects\2017_02_23_TP_tris\2017_02_23_TP_tris\obj\Debug\2017_02_23_TP_tris.csprojResolveAssemblyReference.cache
+c:\users\34011-36-06\documents\visual studio 2015\Projects\2017_02_23_TP_tris\2017_02_23_TP_tris\obj\Debug\2017_02_23_TP_tris.exe
+c:\users\34011-36-06\documents\visual studio 2015\Projects\2017_02_23_TP_tris\2017_02_23_TP_tris\obj\Debug\2017_02_23_TP_tris.pdb
