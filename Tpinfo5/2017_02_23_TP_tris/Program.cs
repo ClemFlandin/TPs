@@ -11,7 +11,8 @@ namespace _2017_02_23_TP_tris
         static void Main(string[] args)
         {
             int[] tab = { 534, 354, 528, 97, 5454 , 4554 , 2, 45, 29, 100 };
-            TriRapide(tab, 0, tab.Length-1);
+            //TriRapide(tab, 0, tab.Length-1);
+            TriBulles(tab);
             for (int i = 0; i < tab.Length; i++)
             {
                 Console.WriteLine(tab[i]);
