@@ -11,7 +11,7 @@ namespace _Tpinfo6
     {
         public static void Main(string[] args)
         {
-            //Instanciation des objets indispensables à la vie de la ferme
+            //Instanciation des éléments indispensables à la vie de la ferme
         
             Chien chien = new Chien();
             chien.Nom = "mirza";
@@ -28,11 +28,16 @@ namespace _Tpinfo6
             Lune lune = new Lune();
             Soleil soleil = new Soleil();
             Clone clone = new Clone("bobonne");
-            
+            Clone clone2 = clone;
+            clone2.Nom = "esclave";
             Cerisier cerisier = new Cerisier();
             cerisier.TypeVeg = "cerisier";
+            cerisier.NNbreFruits = 1;
+            int cerises = cerisier.NNbreFruits;
             Abricotier abricotier = new Abricotier();
             abricotier.TypeVeg = "abricotier";
+            abricotier.NNbreFruits = 6;
+            int abricots = abricotier.NNbreFruits;
             Maïs maïs = new Maïs();
             maïs.TypeVeg = "maïs";
             Chou chou = new Chou();
@@ -87,6 +92,9 @@ namespace _Tpinfo6
                         ActionsDebutJournee(soleil, lune, chien, chevre, dindon, femme, mari, chou, maïs, abricotier, cerisier);
                         couteau.TuerAnimal(dindon);
                         ActionsFinJournee(soleil, lune, clone, chien, chevre, dindon, femme, mari);
+                        abricots = abricotier.NNbreFruits;
+                        cerises = cerisier.NNbreFruits;
+                        Console.WriteLine("Cette semaine, {0} abricots, {1} cerises!", abricots, cerises);
                         Console.WriteLine();
                         break;
                     default:
@@ -121,6 +129,8 @@ namespace _Tpinfo6
             chien.SeDeplacer("gamelle");
             chien.Manger();
             chien.CourirApres(chien, dindon);
+            abricotier.PousseNouveauxFruits(2);
+            cerisier.PousseNouveauxFruits(4);
             Console.WriteLine();
         }
         //Méthode statique indiquant une fin de journée type
